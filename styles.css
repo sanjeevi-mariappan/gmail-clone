@@ -1,0 +1,60 @@
+.gmail-icon{
+  width: 40px;
+  height:40px;
+}
+
+.hr-line{
+  height: 1px;
+  width: 100%;
+  background-color: rgb(236, 224, 224);
+}
+
+#search:focus{
+  outline: none;
+}
+
+.scroll-active{
+  overflow-y: hidden;
+}
+
+.scroll-active:hover,.scroll-active:active,.scroll-active:focus{
+  overflow-y: auto;
+}
+
+.highlight-btn:hover,.highlight-btn:active,.highlight-btn:focus{
+  border-bottom-right-radius: 15%;
+  border-top-right-radius: 15%;
+  background-color: rgb(180, 179, 179);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.td-bg:hover{
+  background-color: #e5e6e7;
+}
+
+.td-bg{
+  width: 20%;
+}
+
+.google-logo{
+  border-color: #888;
+  border-style: none;
+  border-radius: 50%;
+}
+
